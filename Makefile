@@ -1,2 +1,2 @@
 bash:
-	@docker-compose run rust bash
+	@docker-compose run --service-ports rust bash
